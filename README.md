@@ -50,4 +50,4 @@ StudyLink bridges this gap by providing an accessible marketplace for:
 * **Git Workflow:** Mandatory use of Git for collaborative development.
 
 ---
-*Created by [Your Names] for the Object-Oriented Programming Course.*
+*Created by Ihsan Mercan and Mehmet Erdemli for the Object-Oriented Programming Course.*
