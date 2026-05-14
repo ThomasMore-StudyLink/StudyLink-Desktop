@@ -90,6 +90,6 @@ StudyLink follows a clean, intuitive UI flow designed for students.
 ---
 
 ## 👥 Authors & Credits
-* **Ihsan Hamdi Mercan**
 * **Mehmet Erdemli**
+* **Ihsan Hamdi Mercan**
 * *Thomas More University — Inspiration Lab Project (OOP)*
