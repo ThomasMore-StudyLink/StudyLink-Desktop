@@ -1,10 +1,15 @@
-# 🎓 StudyLink: Peer-to-Peer Academic Support System
+# 🎓 StudyLink — Peer Tutoring Ecosystem
 
-Welcome to the official repository of **StudyLink**. This project is a secure C# Desktop Application designed to facilitate affordable, high-quality tutoring between university peers.
+![Project Status](https://img.shields.io/badge/Status-Academic_Project-blue)
+![C#](https://img.shields.io/badge/Language-C%23-purple)
+![WPF](https://img.shields.io/badge/Framework-WPF-blueviolet)
+![MySQL](https://img.shields.io/badge/Database-MySQL-orange)
+
+> **Bridging the academic gap through a secure, peer-to-peer knowledge exchange platform.**
 
 ---
 
-## 📑 Project Analysis & Information Problem
+## 📑 1. Thorough Project Analysis
 
 ### 1. Problem Statement
 **Target Segment:** 1st and 2nd-year university students facing academic or financial challenges.
@@ -20,34 +25,71 @@ StudyLink bridges this gap by providing an accessible marketplace for:
 * **Positive:** Promotes educational equity and social mobility by leveling the playing field for mid-to-low income students.
 * **Risk Mitigation:** To combat inconsistent tutoring quality, we implement a robust **Review & Rating System** monitored by Administrators.
 
----
 
-## 🛠️ Application Features
-
-### 👤 User & Account Features
-* **Authentication:** Secure Registration and Login (Password Hashing).
-* **Profile Management:** Customizing tutor expertise, hourly rates, and availability.
-* **Booking System:** Searching for tutors by course code and scheduling sessions.
-* **Payment Simulation:** Transparent balance management and transaction history.
-
-### 🛡️ Administrative Features
-* **User Oversight:** Managing accounts and resolving disputes.
-* **Quality Control:** Auditing reviews and system logs for security.
+### 4.In-Depth Analysis
+Unlike generic scheduling apps, StudyLink implements a **Safe-Learning Environment**. This is achieved through:
+* **Accountability:** A robust review and rating system that ensures quality control.
+* **Administrative Oversight:** A unique **Jury System** that allows administrators to monitor and resolve disputes between students and tutors.
+* **Data Integrity:** A normalized relational database structure that ensures every booking, payment simulation, and review is traceable and secure.
 
 ---
 
-## 📊 Design & Diagrams (Under Construction)
+## 🛡️ 2. Core Features
 
-* **ERD (Entity Relationship Diagram):** [Link to be added]
-* **UML Class Diagram:** [Link to be added - Phase 2]
-* **Wireframes:** [Screenshots of UI design to be added]
+### 👨‍🎓 For Students
+*   **Smart Search:** Locate tutors instantly by course code or subject.
+*   **Verified Profiles:** View tutor expertise, ratings, and transparent hourly rates.
+*   **Booking System:** Schedule sessions and track history with ease.
+
+### 👩‍🏫 For Tutors
+*   **Profile Management:** Customize bio, set rates, and showcase academic expertise.
+*   **Availability Management:** Dedicated calendar slots for dynamic scheduling.
+*   **Reputation System:** Build trust through verified peer reviews and ratings.
+
+### 🛡️ For Administrators
+*   **User Oversight:** Full management of accounts and tutor approval workflows.
+*   **Dispute Resolution:** Handle "Jury Cases" to maintain high tutoring standards.
+*   **System Analytics:** Access platform statistics and security logs.
 
 ---
 
-## 🧪 Quality Assurance & Security
-* **Security First:** Data protection is a priority. SQL Injection prevention and secure data storage are implemented.
-* **Testing Objective:** Continuous testing to ensure an error-free delivery.
-* **Git Workflow:** Mandatory use of Git for collaborative development.
+## 📊 3. Diagrams
+
+### ERD (Entity Relationship Diagram)
+<img width="653" height="953" alt="erd" src="https://github.com/user-attachments/assets/d7a57945-bf97-4fe5-a731-874f66d71d9a" />
+
+### UML (Unified Modeling Language)
+<img width="1115" height="2024" alt="uml" src="https://github.com/user-attachments/assets/5f73ef93-d45b-453c-95bf-4470abc5147a" />
+
+
+
 
 ---
-*Created by Ihsan Mercan and Mehmet Erdemli for the Object-Oriented Programming Course.*
+
+## 🖥️ 4. Wireframes (Screen-by-Screen Depiction)
+
+StudyLink follows a clean, intuitive UI flow designed for students.
+
+1.  **Login/Register Window:** The entry point featuring secure credential verification and password recovery.
+2.  **Dashboard (Student View):** A searchable marketplace where students filter tutors by **Course Code** or **Subject**.
+3.  **Tutor Profile View:** A detailed breakdown of a tutor's bio, hourly rate, subjects, and past student reviews.
+4.  **Booking Popup:** A focused window to select dates/times, featuring the **Live Price Calculator**.
+5.  **Payment Simulation:** A transparent confirmation screen showing the total cost and balance deduction.
+6.  **Admin Panel:** A specialized high-level dashboard for user management, tutor approvals, and managing jury cases.
+
+---
+
+## 🏗 Tech Stack & Requirements
+
+* **Language:** C#
+* **UI Framework:** WPF (.NET 10.0+)
+* **Database:** MySQL 8.0
+* **ORM:** Raw SQL with MySqlConnector for high performance.
+* **Security:** SHA256 Hashing.
+
+---
+
+## 👥 Authors & Credits
+* **Ihsan Hamdi Mercan**
+* **Mehmet Erdemli**
+* *Thomas More University — Inspiration Lab Project (OOP)*
